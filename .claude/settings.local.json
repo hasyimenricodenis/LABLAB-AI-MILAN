@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import pandas, yaml; print\\('pandas', pandas.__version__, 'pyyaml', yaml.__version__\\)\")"
+    ]
+  }
+}

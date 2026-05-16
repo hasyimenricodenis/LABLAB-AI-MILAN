@@ -1,0 +1,50 @@
+agents:
+  ingestion:
+    version: 0.2.0
+    input_schema: raw_health_record
+  quality:
+    required_fields:
+      - report_id
+      - district
+      - symptom_severity
+      - suspected_condition
+    acceptable_severity:
+      - low
+      - medium
+      - high
+      - critical
+    known_conditions:
+      - dengue
+      - tuberculosis
+      - severe_respiratory
+      - diarrhea
+      - flu
+      - measles
+      - covid19
+  privacy:
+    redact_fields:
+      - citizen_name
+      - citizen_phone
+      - citizen_address
+      - national_id
+    pseudonym_field: national_id
+    salt: lablab-milan-2026
+  insight:
+    high_risk_conditions:
+      - dengue
+      - tuberculosis
+      - severe_respiratory
+      - measles
+  citizen_service:
+    priority_thresholds:
+      high: 80
+      medium: 50
+  messaging:
+    default_language: id
+    supported_languages:
+      - id
+      - en
+      - it
+  narrative:
+    model: claude-haiku-4-5-20251001
+    max_tokens: 512

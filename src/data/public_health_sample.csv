@@ -1,0 +1,16 @@
+report_id,district,suspected_condition,symptom_severity,reported_at,citizen_name,citizen_phone,citizen_address,national_id,preferred_language
+JKT-001,Central Jakarta,dengue,high,2026-05-12T08:14:00,Rani Putri,081234567891,Jl. Merdeka 10,3174010101010001,id
+JKT-002,South Jakarta,severe_respiratory,critical,2026-05-12T08:32:00,Andi Wijaya,081234567892,Jl. Sudirman 88,3174010101010002,id
+JKT-003,East Jakarta,tuberculosis,medium,2026-05-12T09:01:00,Siti Rahma,081234567893,Jl. Raya 21,3174010101010003,id
+JKT-004,North Jakarta,flu,low,2026-05-12T09:22:00,Budi Santoso,081234567894,Jl. Pelabuhan 4,3174010101010004,id
+JKT-005,West Jakarta,dengue,medium,2026-05-12T09:45:00,Nina Karlina,081234567895,Jl. Kebon Jeruk 12,3174010101010005,id
+JKT-006,Central Jakarta,dengue,critical,2026-05-12T10:03:00,Dewi Lestari,081234567896,Jl. Thamrin 5,3174010101010006,id
+JKT-007,South Jakarta,diarrhea,medium,2026-05-12T10:18:00,Hendra Gunawan,081234567897,Jl. Senopati 22,3174010101010007,id
+JKT-008,East Jakarta,severe_respiratory,high,2026-05-12T10:41:00,Maria Tan,081234567898,Jl. Kelapa Gading 9,3174010101010008,en
+JKT-009,West Jakarta,tuberculosis,high,2026-05-12T11:05:00,Joko Prabowo,081234567899,Jl. Daan Mogot 77,3174010101010009,id
+JKT-010,North Jakarta,dengue,medium,2026-05-12T11:33:00,Putri Ayu,081234567800,Jl. Sunter Mas 14,3174010101010010,id
+JKT-011,Central Jakarta,flu,low,2026-05-12T12:02:00,Rizki Hidayat,081234567801,Jl. Cikini 8,3174010101010011,id
+JKT-012,South Jakarta,unknown,extreme,2026-05-12T12:24:00,Lia Suryani,081234567802,Jl. Kemang 30,3174010101010012,id
+JKT-013,East Jakarta,dengue,,2026-05-12T12:55:00,Agus Setiawan,081234567803,Jl. Bekasi Raya 51,3174010101010013,id
+JKT-014,,severe_respiratory,critical,2026-05-12T13:17:00,Sari Wulan,081234567804,Jl. Tomang 19,3174010101010014,id
+JKT-015,North Jakarta,tuberculosis,medium,2026-05-12T13:40:00,Bagus Pratama,081234567805,Jl. Kelapa Hibrida 6,3174010101010015,it
